@@ -15619,6 +15619,11 @@
   "RootNamespace": "matricula",
   "Documents": [
     {
+      "FilePath": "d:\\ÁRCHIVOS\\proyectos\\progra 1\\lab\\matricula\\Views\\alumno\\Index.cshtml",
+      "TargetPath": "Views\\alumno\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\ÁRCHIVOS\\proyectos\\progra 1\\lab\\matricula\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"

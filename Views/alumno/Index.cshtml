@@ -1,0 +1,44 @@
+@model matricula.Models.Alumno
+@{
+    ViewData["Title"] = "REGISTRO EN LÍNEA";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="text-center">
+    <h1 class="display-4">Completar el formulario para la matrícula</h1>
+
+   
+  <form asp-controller="Alummno" asp-action="create">
+        <label asp-for="nom" class="form-label"></label>
+        <input asp-for="nom" class="form-control form-control-sm" type="text" placeholder="Escribir el nombre del alumno" aria-label=".form-control-sm" />
+
+        <label asp-for="ape" class="form-label"></label>
+        <input asp-for="ape" class="form-control form-control-sm" type="text" placeholder="Escribir el apellido" aria-label=".form-control-sm" />
+
+        <label asp-for="fecha" class="form-label"></label>
+        <input asp-for="fecha" class="form-control form-control-sm" type="text" placeholder=" Ingresar la fecha de cumpleaños" aria-label=".form-control-sm" />    
+
+        <label asp-for="dni" class="form-label"></label>
+        <input asp-for="dni" class="form-control form-control-sm" type="text" placeholder=" Ingresar el dni" aria-label=".form-control-sm" />    
+
+         <label asp-for="carrera" class="form-label"></label>
+        <input asp-for="carrera" class="form-control form-control-sm" type="text" placeholder=" Ingresar la carrera" aria-label=".form-control-sm" />    
+
+
+       <label asp-for="gender" class="control-label"></label>
+    
+        <input asp-for="gender" class="form-control" type="radio" value="masculino" />
+       masculino
+        <input asp-for="gender" class="form-control" type="radio" value="fenemino" />
+       femenino
+        
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Registrar</button> 
+        </div>              
+    </form>
+      <h1>@ViewData["Message"]</h1>
+       <div>
+        <a asp-action="index">Back to List</a>
+    </div>
+</div>

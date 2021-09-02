@@ -38,3 +38,4 @@ D:\ÁRCHIVOS\proyectos\progra 1\lab\matricula\obj\Debug\net5.0\ref\matricula.dll
 D:\ÁRCHIVOS\proyectos\progra 1\lab\matricula\obj\Debug\net5.0\matricula.pdb
 D:\ÁRCHIVOS\proyectos\progra 1\lab\matricula\obj\Debug\net5.0\matricula.genruntimeconfig.cache
 D:\ÁRCHIVOS\proyectos\progra 1\lab\matricula\obj\Debug\net5.0\matricula.csproj.CopyComplete
+D:\ÁRCHIVOS\proyectos\progra 1\lab\matricula\obj\Debug\net5.0\Razor\Views\alumno\Index.cshtml.g.cs
