@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ÁRCHIVOS\\proyectos\\progra 1\\lab\\matricula\\matricula.csproj": {}
+    "d:\\ÁRCHIVOS\\proyectos\\progra 1\\lab\\matricula\\matricula.csproj": {}
   },
   "projects": {
-    "D:\\ÁRCHIVOS\\proyectos\\progra 1\\lab\\matricula\\matricula.csproj": {
+    "d:\\ÁRCHIVOS\\proyectos\\progra 1\\lab\\matricula\\matricula.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ÁRCHIVOS\\proyectos\\progra 1\\lab\\matricula\\matricula.csproj",
+        "projectUniqueName": "d:\\ÁRCHIVOS\\proyectos\\progra 1\\lab\\matricula\\matricula.csproj",
         "projectName": "matricula",
-        "projectPath": "D:\\ÁRCHIVOS\\proyectos\\progra 1\\lab\\matricula\\matricula.csproj",
+        "projectPath": "d:\\ÁRCHIVOS\\proyectos\\progra 1\\lab\\matricula\\matricula.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\ÁRCHIVOS\\proyectos\\progra 1\\lab\\matricula\\obj\\",
+        "outputPath": "d:\\ÁRCHIVOS\\proyectos\\progra 1\\lab\\matricula\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,22 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

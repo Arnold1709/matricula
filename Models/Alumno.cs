@@ -1,3 +1,4 @@
+using System;
 namespace matricula.Models
 {
     public class Alumno
